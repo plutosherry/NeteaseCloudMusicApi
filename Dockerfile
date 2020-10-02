@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM aarch64/node:lts-buster
 
 WORKDIR /app
 COPY . /app
